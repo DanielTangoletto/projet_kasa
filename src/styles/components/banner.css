@@ -1,0 +1,21 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_img {
+    position: relative;
+    width: 1400px;
+    height: 223px;
+    border-radius: 25px;
+}
+
+.banner_txt {
+    position: absolute;
+    color: white;
+    text-shadow: 1px 1px 10px black;
+    font-size: 48px;
+    font-weight: 700;
+}
+

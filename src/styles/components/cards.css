@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    width: 340px;
+    height: 340px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card_img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.card_title {
+    position: absolute;
+    margin: 15px 20px;
+    box-sizing: inherit;
+    bottom: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 1px 1px 10px black;
+}

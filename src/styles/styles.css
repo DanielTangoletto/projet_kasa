@@ -1,0 +1,17 @@
+@import "./header.css";
+@import "./footer.css";
+@import "./components/nav.css";
+@import "./components/banner.css";
+@import "./components/cards.css";
+@import "./components/gallery.css";
+
+
+* {
+    font-family: Montserrat;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
