@@ -3,7 +3,3 @@
     font-size: 24px;
     font-weight: 500;
 }
-
-.nav-header__nav-link-home:hover, .nav-header__nav-link-about:hover {
-    text-decoration: underline;
-}

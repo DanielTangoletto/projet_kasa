@@ -1,0 +1,24 @@
+.errorComponent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 66px;
+}
+
+.errorComponent_404 {
+    font-weight: 700;
+    font-size: 288px;
+    color: rgba(255, 96, 96, 1);
+}
+
+.errorComponent_txt {
+    font-weight: 500;
+    font-size: 36px;
+    color: rgba(255, 96, 96, 1);
+}
+
+.errorComponent_link {
+    font-weight: 500;
+    font-size: 18px;
+}

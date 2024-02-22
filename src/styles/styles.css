@@ -4,6 +4,8 @@
 @import "./components/banner.css";
 @import "./components/cards.css";
 @import "./components/gallery.css";
+@import "./error.css";
+@import "./components/collapse.css";
 
 
 * {
@@ -14,4 +16,8 @@
 a {
     text-decoration: none;
     color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }

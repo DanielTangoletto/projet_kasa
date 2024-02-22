@@ -1,0 +1,36 @@
+.collapse {
+  color: white;
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.collapse_dropdown {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.collapse_dropdown_title {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 10px 20px 10px 15px;
+  background: rgba(255, 96, 96, 1);
+}
+
+.fa-chevron-up, .fa-chevron-down {
+  position: relative;
+  color: white;
+  padding: 5px;
+  font-size: 24px;
+}
+
+.collapse_dropdown_content {
+  color: black;
+  background: rgba(246, 246, 246, 1);
+  padding: 10px 20px 10px 15px;
+}
