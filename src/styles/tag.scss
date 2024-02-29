@@ -1,0 +1,16 @@
+.tag_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 15px;
+	background-color: $background-color_4;
+	width: 170px;
+	height: 35px;
+	border-radius: 10px;
+	color: $color_1;
+	font-size: 14px;
+	font-weight: 700;
+}
+.tag_container_button {
+	text-align: center;
+}

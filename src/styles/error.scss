@@ -1,0 +1,35 @@
+.errorComponent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 80px;
+	margin-bottom: 66px;
+}
+.errorComponent_404 {
+	font-weight: 700;
+	font-size: 288px;
+	color: $color_2;
+}
+.errorComponent_txt {
+	font-size: 36px;
+	color: $color_2;
+	font-weight: 500;
+}
+.errorComponent_link {
+	font-weight: 500;
+	font-size: 18px;
+}
+@media (max-width:1024px) {
+	.errorComponent_404 {
+		font-size: 96px;
+		margin-top: 20px;
+	}
+	.errorComponent_txt {
+		width: 90%;
+		font-size: 18px;
+		text-align: center;
+	}
+	.errorComponent_link {
+		font-size: 14px;
+	}
+}
