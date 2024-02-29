@@ -1,5 +1,21 @@
-.nav-header__nav-link-home, .nav-header__nav-link-about {
-    margin-right: 50px;
-    font-size: 24px;
-    font-weight: 500;
+.nav_header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-header_nav-link-home,
+.nav-header_nav-link-about {
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  width: 120px;
+}
+
+@media (max-width: 1024px) {
+  .nav-header_nav-link-home,
+  .nav-header_nav-link-about {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
 }

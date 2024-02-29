@@ -3,11 +3,11 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <nav className="nav-header">
-      <NavLink to="/" className="nav-header__nav-link-home">
+    <nav className="nav_header">
+      <NavLink to="/" className="nav-header_nav-link-home">
         Accueil
       </NavLink>
-      <NavLink to="/about" className="nav-header__nav-link-about">
+      <NavLink to="/about" className="nav-header_nav-link-about">
         A Propos
       </NavLink>
     </nav>

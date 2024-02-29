@@ -1,6 +1,17 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.header img {
+  width: 210px;
+}
+
+@media (max-width: 1024px) {
+  .header img {
+    width: 85%;
+  }
+
 }
