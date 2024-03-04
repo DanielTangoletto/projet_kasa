@@ -1,34 +1,15 @@
-@import "./variables.scss";
-@import "./header.scss";
-@import "./footer.scss";
-@import "./nav.scss";
-@import "./banner.scss";
-@import "./cards.scss";
-@import "./gallery.scss";
-@import "./error.scss";
-@import "./collapse.scss";
-@import "./carrousel.scss";
-@import "./pagelogement.scss";
-@import ".//tag.scss";
-@import "./host.scss";
-@import "./rating.scss";
+@import "./base.scss";
+@import "../components/Header/header.scss";
+@import "../components/Footer/footer.scss";
+@import "../components/Nav/nav.scss";
+@import "../components/Banner/banner.scss";
+@import "../components/Cards/cards.scss";
+@import "../components/Gallery/gallery.scss";
+@import "../components/Error/error.scss";
+@import "../components/Collapse/collapse.scss";
+@import "../components/Carrousel/carrousel.scss";
+@import "../components/PageLogement/pagelogement.scss";
+@import "../components/Tag/tag.scss";
+@import "../components/Host/host.scss";
+@import "../components/Rating/rating.scss";
 
-* {
-  font-family: Montserrat;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 399px) {
-  * {
-    display: none;
-  }
-}
