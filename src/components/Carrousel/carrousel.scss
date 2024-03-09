@@ -1,9 +1,12 @@
 .slide {
+	width: 90%;
 	position: relative;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
 }
 .slider {
 	left: 0%;
@@ -19,10 +22,11 @@
 }
 .slide_img {
 	position: relative;
-	width: 1000px;
+	width: 1200px;
 	height: 415px;
 	object-fit: cover;
 	border-radius: 25px;
+	
 }
 .slider_number {
 	position: relative;
@@ -38,7 +42,7 @@
 	color: $color_1;
 	cursor: pointer;
 	z-index: 1;
-	left: 15%;
+	left: 100px;
 }
 .right_arrow {
 	position: absolute;
@@ -46,15 +50,13 @@
 	color: $color_1;
 	cursor: pointer;
 	z-index: 1;
-	right: 17%;
+	right: 100px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 1240px) {
 	.slide {
 		border-radius: 10px;
-		width: 80%;
+		width: 90%;
 		height: 300px;
-		margin-right: auto;
-		margin-left: auto;
 	}
 	.left_arrow {
 		font-size: 36px;
