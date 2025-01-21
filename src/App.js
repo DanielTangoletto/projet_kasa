@@ -13,7 +13,7 @@ const App = () => {
         <Route path="/projet_kasa" element={<Home />} />
         <Route path="/projet_kasa/about" element={<About />} />
         <Route path="/projet_kasa/logement/:id" element={<Logement />} />
-        <Route path="*" element={<Error />} />
+        <Route path="/projet_kasa/*" element={<Error />} />
       </Routes>
     </div>
   );
