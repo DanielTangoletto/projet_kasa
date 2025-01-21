@@ -7,6 +7,7 @@ import Carrousel from "../Carrousel/Carrousel";
 import Host from "../Host/Host";
 
 const PageLogement = () => {
+
   const { id } = useParams();
 
   const ficheLogement = logements.find((logement) => logement.id === id);
