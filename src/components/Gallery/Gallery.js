@@ -9,7 +9,7 @@ const Gallery = () => {
       {logements.map((logement) => {
         return (
           <article key={logement.id}>
-            <Link to={`/logement/${logement.id}`}>
+            <Link to={`/projet_kasa/logement/${logement.id}`}>
               <Card image={logement.cover} title={logement.title} />
             </Link>
           </article>
